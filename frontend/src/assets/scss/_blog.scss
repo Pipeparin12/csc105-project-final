@@ -1,0 +1,93 @@
+.blog-container{
+    padding: 150px;
+
+    .title{
+        text-align: center;
+        font-size: 25px;
+
+        .topic{
+            text-align: center;
+        }
+    }
+
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 30px;
+    }
+
+    .input-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        text-align: justify;
+        padding: 20px;
+
+        .topic{
+            text-align: center;
+        }
+    }
+
+    .blog-text{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: larger;
+        text-align: justify;
+        width: 100%;
+        padding: 20px;
+
+        .topic{
+            text-align: center;
+            
+
+        }
+    }
+
+    .blog-info{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .edit-area{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+    }
+
+    .delete-info{
+        padding: 20px;
+    }
+
+    .edit-info{
+        padding:20px
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .blog-container{
+        
+        .img{
+            width: 90%;
+        }
+
+        .input-img{
+            width: 80%;
+            padding-left: 30px;
+        }
+
+        .edit-area{
+            width: 90%;
+        }
+
+        .blog-text{
+            padding-left: 60px;
+        }
+    }
+}
